@@ -1,25 +1,11 @@
 {
   "name": "s02",
-  "version": "1.0.0",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
+  "private": true,
+  "version": "0.0.1",
   "scripts": {
-    "dev": "uvicorn app.main:app --reload",
+    "start": "uvicorn app.main:app --reload",
     "test": "npx playwright test --project=chromium"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/TheShenron/S02.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/TheShenron/S02/issues"
-  },
-  "homepage": "https://github.com/TheShenron/S02#readme",
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.58.2"

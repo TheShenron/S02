@@ -24,6 +24,6 @@
         ".git"
     ],
     "installCommand": "pip install -r requirements.txt",
-    "runCommand": "uvicorn app.main:app --reload",
+    "runCommand": "npm start",
     "testCommand": "npm test"
 }
