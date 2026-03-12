@@ -1,0 +1,29 @@
+{
+    "examId": "smart_shopping_cart_bd",
+    "title": "Smart Shopping Cart",
+    "description": "Build a smart shopping cart application that allows users to add items, view their cart, and proceed to checkout",
+    "difficulty": "medium",
+    "duration": 60,
+    "language": "python",
+    "entry": "app/main.py",
+    "editableFolders": [
+        "app"
+    ],
+    "excludeOnSubmit": [
+        "node_modules",
+        "tests",
+        ".dockerignore",
+        ".gitignore",
+        "Dockerfile",
+        "Guidelines.md",
+        "package-lock.json",
+        "package.json",
+        "playwright.config.ts",
+        "question.json",
+        "README.md",
+        ".git"
+    ],
+    "installCommand": "pip install -r requirements.txt",
+    "runCommand": "uvicorn app.main:app --reload",
+    "testCommand": "npm test"
+}
