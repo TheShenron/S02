@@ -16,6 +16,8 @@ git archive --format=zip \
   "$VERSION" \
   -- app \
   README.md \
+  Guidelines.md \
+  requirements.txt \
   ':(exclude)tests' \
   ':(exclude)solution' \
   ':(exclude)Dockerfile' \
